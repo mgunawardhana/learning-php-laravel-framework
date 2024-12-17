@@ -7,6 +7,6 @@
 <h1>Welcome to the laravel learning platform</h1>
 <p>click the button to view the list</p>
 
-<a href="/mgunwardhanas" class="bottom-auto"> Find Maneesha</a>
+<a href="/get-and-set" class="bottom-auto"> Find Personal Details</a>
 </body>
 {{--</html>http://mgunawardhana.test/--}}

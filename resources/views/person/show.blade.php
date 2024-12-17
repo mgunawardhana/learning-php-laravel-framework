@@ -2,12 +2,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>mGunawardhana's Network</title>
+    <title>Maneesha's Network</title>
 </head>
 <body>
-<h2> Currently Available mGunawardhana's</h2>
-<ul>
-    <li>Ninjas Here</li>
-</ul>
+<h2> Persons id - {{$id}}</h2>
 </body>
 </html>
