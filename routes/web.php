@@ -13,7 +13,7 @@ Route::get('/get-and-set',function(){
         ["id" => "2", "name" => "Rex", "email" => "rex@gmail.com", "phone" => "+94233458765"]
     ];
 
-    return view('person.index', ["greeting" => "Hello, M. Gunawardhana", "personDetails" => $personDetails]);
+    return view('person.index', ["greeting" => "hi", "personDetails" => $personDetails]);
 });
 
 
