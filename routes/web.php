@@ -16,6 +16,9 @@ Route::get('/get-and-set',function(){
     return view('person.index', ["greeting" => "hi", "personDetails" => $personDetails]);
 });
 
+Route::get('/get-and-set/create', function () {
+    return view('person.create');
+});
 
 Route::get('/get-and-set/{id}',function($id){
     return view('person.show', ["id" => $id]);
