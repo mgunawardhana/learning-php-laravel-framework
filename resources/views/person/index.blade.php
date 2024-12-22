@@ -2,11 +2,12 @@
     <h2> Currently Available mGunawardhana's</h2>
 
     <ul>
-        @foreach($personDetails as $person)
+        @foreach($persons as $person)
             <li>
-                <x-card>
+{{--                if we can pass any attribut like this and some time we can pass conditions like this--}}
+{{--                <x-card href="/get-and-set/{{$person['id']}}" :highlight="$person['id'] > 5">--}}
+                <x-card href="/get-and-set/{{$person['id']}}" :highlight="true">
                     <p>{{$person["name"]}}</p>
-                    <a href="/get-and-set/{{$person['id']}}">View Details</a>
                 </x-card>
             </li>
         @endforeach

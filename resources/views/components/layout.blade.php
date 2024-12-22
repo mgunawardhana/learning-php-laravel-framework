@@ -8,9 +8,9 @@
 
 <header>
     <nav>
-        <h1>Ninja Network</h1>
+        <h1>Maneesha's Network</h1>
         <a href="/get-and-set">Persons</a>
-        <a href="/get-and-set/create">Create New Persons</a>
+        <a href="/get-and-set/create">Create</a>
     </nav>
 </header>
 
