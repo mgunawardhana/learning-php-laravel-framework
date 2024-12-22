@@ -4,8 +4,10 @@
     <ul>
         @foreach($personDetails as $person)
             <li>
-                <p>{{$person["name"]}}</p>
-                <a href="/get-and-set/{{$person['id']}}">View Details</a>
+                <x-card>
+                    <p>{{$person["name"]}}</p>
+                    <a href="/get-and-set/{{$person['id']}}">View Details</a>
+                </x-card>
             </li>
         @endforeach
     </ul>
